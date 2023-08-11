@@ -98,9 +98,7 @@ padding:7px 0;
     border-bottom: 1px solid #484848;
    
 }
-.input-box:focus-within{
-    border-bottom: 1px solid #e350b7;
-}
+
 
 .check-box{
     width:100%;

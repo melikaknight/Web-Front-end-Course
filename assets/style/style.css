@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: unset;
+    outline:none;
+}
+body{
+    background-image:url("./../images/bg-mountain.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat ;
+}
+.background-glass{
+    background: linear-gradient(#3ebefec6,#9f47d2aa);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container{
+     background-color: rgba(255, 255, 255, 0.737);
+     width: 85%;
+     height: 80%; 
+     position: absolute;  
+     top:50%;
+     left:50%; 
+     transform: translate(-50%,-50% );
+     padding:10px 20px;
+     display: flex;
+     flex-direction: column;
+}
+.container .header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h2{
+    font-family: "Megrim";
+}
+a i {
+ padding: 6px 4px 7px;
+}
+h1{
+    font-family: "Gruppo";
+    color: rgb(73, 195, 236);
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+
+}
+.input-icon{
+    color:#e350b7;
+    display: flex;
+    padding: 0;
+
+}
+.input-icon .i{
+    padding:0;
+    margin:0;
+} 
+
+.container .content .intro{
+    text-align: center;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: "News Cycle";
+
+}
+.container .content form{
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: "News Cycle";
+
+    
+}
+
+.input-box input{
+width: 100%;
+height: 100%;
+padding:7px 0; 
+
+}
+
+.input-box{
+    min-width: 300px;
+    margin:5px 0px;
+    display: flex;
+    border-bottom: 1px solid #484848;
+   
+}
+.input-box:focus-within{
+    border-bottom: 1px solid #e350b7;
+}
+
+.check-box{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    gap:10px;
+    margin:10px 0px;
+}
+button{
+    background-color: #e350b7;
+    padding: 5px 10px;
+    color:white;
+    font-size: 18px;
+}
+.container .content .options{
+    display: flex;
+    gap:40px;
+    font-family: "News Cycle";
+
+}
+
+.right{
+    font-family: "News Cycle";
+}

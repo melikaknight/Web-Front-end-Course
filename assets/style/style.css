@@ -66,6 +66,9 @@ h1{
 .input-box:focus-within{
     border-bottom: 1px solid #e350b7;
 }
+.input-box input:focus{
+    color:#e350b7;
+}
 
 .container .content .intro{
     text-align: center;
